@@ -1,0 +1,359 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+ 
+
+    
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid rgb(26, 195, 225);
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.bottom{
+ position: relative;
+ 
+ height: 50vh;
+ width: 50wh;
+ background-color: antiquewhite;
+}
+ main{
+   height: 100vh;
+   width: 80%;
+   background-color: rgb(2, 81, 81);
+
+  
+ }
+ header{
+   display:inline-block;
+  z-index: 10;
+  position:sticky;
+  top: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: shrink 2;
+  border: 5px solid blue;
+  height: 200px;
+
+  
+}
+ .top{
+   height: 30vh;
+   width: 33%;
+ 
+ }
+ .container{
+   display: inline-block;
+  height: 150vh;
+  width: 100%;
+  position: relative;
+ background-color:red;
+ background-repeat: no-repeat;
+ justify-content: center;
+ align-items: center;
+ }
+.robot{
+ position:fixed;
+ height: 110px;
+ width: 140px;
+ top:50%;
+ bottom: 100px;
+ left: 1385px;
+ background-color: rgb(218, 187, 170);
+ border-radius: 10px;
+ border: 5px solid rgb(74, 3, 48);
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 2px;
+ background-image: url(robot1.jpg);
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+  background-color: rgba(156, 39, 176, 0.6) !important;
+  justify-content: center;
+  align-content: center;
+}
+@media screen and (max-width:800px) {
+  body{
+      background-color: blue;
+  }
+  .container{
+    background-color: chartreuse;
+  }
+  
+}
+.box1{
+ position:sticky;
+height: 37vh;
+width:35%;
+ top:50px;
+bottom: 10px;
+left:130px;
+display: block;
+text-decoration: none;
+text-align: center;
+background-image: url('/iimtimage.jpg');
+margin-top: 20px;
+border-radius: 50px;
+
+
+}
+.box11{
+ position: relative;
+ display: inline-block;
+ left: 590px;
+ height: 55vh;
+ top: 10px;
+ width:700px;
+ background-color:white;
+ font-family:Arial, Helvetica, sans-serif;
+ background:scroll;
+ color:gold;
+ flex-wrap: wrap;
+
+}
+.box11 h2{
+ color: blue;
+ flex-wrap: wrap;
+}
+.box11 h3{
+ color: blue;
+ flex-wrap: wrap;
+}
+.box11 h4{
+ color:blue;
+ flex-wrap: wrap;
+}
+
+.box2 {
+ position: relative;
+height: 46vh;
+width:22%;
+ top:40px;
+bottom: 10px;
+left:130px;
+background-color: aqua;
+display: block;
+border-radius: 50px;
+text-decoration: none;
+text-align: center;
+background-image: url('/mdsir.jpg');
+
+}
+.box22{
+ position: relative;
+ display: inline-block;
+ left: 590px;
+ height: 55vh;
+ top: 10px;
+ width:700px;
+ background-color:white;
+ font-family:Arial, Helvetica, sans-serif;
+ background:scroll;
+ color:gold;
+ padding: 10px;
+ margin: 1Opx;
+ flex-wrap: wrap;
+ justify-content: center;
+  align-items: center;
+}
+.box22 h2{
+ color: blue;
+}
+.box22 h3{
+ color:blue;
+ flex-wrap: wrap;
+}
+.box3{
+ position: relative;
+height: 43vh;
+width:22%;
+ top:50px;
+bottom: 10px;
+left:130px;
+background-color: aqua;
+display: block;
+border-radius: 50px;
+text-align: center;
+margin-top: 20px;
+background-image: url('/sstyagisir.jpg');
+flex-wrap: wrap;
+justify-content: center;
+  align-items: center;
+}
+.box33{
+ position: relative;
+ display: inline-block;
+ left: 590px;
+ height: 55vh;
+ top: 10px;
+ width:700px;
+ background-color:white;
+ font-family:Arial, Helvetica, sans-serif;
+ background:scroll;
+ color:gold;
+ flex-wrap: wrap;
+ justify-content: center;
+  align-items: center;
+}
+.box33 h2{
+ color: blue;
+ justify-content: center;
+ align-items: center;
+}
+.box33 h3{
+ color:blue;
+}
+.box1 li a{
+ text-decoration: none;
+ color: rgb(42, 217, 156);
+ float: left;
+ text-align: center;
+
+}
+.box2 li a{
+ text-decoration: none;
+ color: rgb(100, 240, 72);
+ float:inline-start;
+ text-align: center;
+}
+.box3 li a{
+ text-decoration: none;
+ color: rgb(88, 234, 20);
+ float: left;
+ text-align: center;
+}
+      /* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  padding: 30px;
+  position: sticky;
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+  }
+
+  /* Style the topnav links */
+  .topnav a {
+  float: left;
+  display: block;
+   color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 6vh;
+  margin-left: 100px;
+ 
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(94, 61, 61);
+}
+
+ /* Style the content */
+.content {
+  background-color: #ddd;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+  width: 100%;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+.welcome{
+background-color: antiquewhite;
+width: 100%;
+height:10vh;
+border: 10px solid blueviolet;
+text-align: center;
+color: rgb(125, 168, 139);
+position: relative;
+display: inline-block;
+padding: auto;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .welcome h2{
+   margin-top: 16px;
+ }
+ .information{
+   list-style: square;
+   height: 100%;
+   width: 100%;
+   background-color:red;
+   position: relative;
+   display: inline-block;
+
+ }
+ /* college tour*/
+
+ .filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
